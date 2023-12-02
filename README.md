@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Кристина Пузынина](https://up.htmlacademy.ru/adaptive/30/user/2343249).
-* Наставник: [Александр Медведев] (https://htmlacademy.ru/profile/exteep).
+* Наставник: [Александр Медведев](https://htmlacademy.ru/profile/exteep).
 
 ---
 
