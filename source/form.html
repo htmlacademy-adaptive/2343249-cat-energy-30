@@ -9,7 +9,7 @@
   </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo logo" href=" ">
+      <a class="main-header__logo logo" href="#">
         <img calss="logo__image" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
         <img calss="logo__image" src="images/logo-inscription.svg" width="101" height="18" alt=" ">
       </a>
@@ -26,7 +26,7 @@
               <a class="site-list__link link" href="catalog.html">каталог продукции</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link link" href=" " aria-current="page">подбор программы</a>
+              <a class="site-list__link link" href="#" aria-current="page">подбор программы</a>
             </li>
           </ul>
         </div>
@@ -40,7 +40,47 @@
         <p class="form__desription desription">
           Заполните анкету, и мы подберем программу питания для вашего кота
         </p>
-        <form class="form-list"></form>
+        <form class="form-list" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="cat-info">
+            <legend class="visually-hidden">Данные животного</legend>
+            <ul class="cat-info__list">
+              <li class="cat-info__item info-input">
+                <label class="info-input__label" for="name">ИМЯ:*</label>
+                <input class="info-input__text" type="text" name="name" id="name" value="барсик" required>
+              </li>
+              <li class="cat-info__item info-input">
+                <label class="info-input__label" for="weight">Вес (кг):*</label>
+                <input class="info-input__text" type="text" name="weight" id="weight" value="7" required>
+              </li>
+              <li class="cat-info__item info-input">
+                <label class="info-input__label" for="age">Возраст (лет):</label>
+                <input class="info-input__text" type="text" name="age" id="age" value="7">
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="program-info">
+            <legend class="visually-hidden">Выбор программы питания</legend>
+            <ul class="program-info__list">
+              <li class="program-info__item info-radio">
+                <label class="info-radio__label" for="weight-loss">похудение
+                <input class="info-radio_radio" type="radio" name="type-of-program" id="weight-loss" value="weight-loss">
+              </label>
+              </li>
+              <li class="program-info__item info-radio">
+                <label class="info-radio__label" for="gain">Набор массы
+                <input class="info-radio_radio" type="radio" name="type-of-program" id="gain" value="gain">
+              </label>
+              </li>
+              <li class="program-info__item info-radio">
+                <label class="info-radio__label" for="unknown">Не знаю (Нужен ваш совет)
+                <input class="info-radio_radio" type="radio" name="type-of-program" id="unknown" value="unknown">
+              </label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
       </section>
     </main>
+    </body>
+    </html>
 
