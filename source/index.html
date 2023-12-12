@@ -14,8 +14,15 @@
   <header class="main-header">
     <div class="container>">
       <span class="main-header__logo logo">
-        <img class="logo__image" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
-        <img class="logo__image" src="images/logo-inscription.svg" width="101" height="18" alt=" ">
+        <picture>
+          <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg">
+          <source width="60" height="60" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-tablet.svg">
+          <img src="images/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
+        </picture>
+        <picture>
+          <source width="101" height="18" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-inscription-desktop.svg">
+          <img class="logo__image" src="images/logo-inscription.svg" width="101" height="18" alt=" ">
+        </picture>
       </span>
       <nav class="main-nav">
         <button class="main-nav__toggle burger-button" type="button">
@@ -46,7 +53,10 @@
       <div class="hero__wrapper container">
         <h1 class="hero__title title">Функциональное питание для котов</h1>
         <p class="hero__description">Занялся собой? Займись котом!</p>
-        <img class="hero__img" src="images/hero.png" width="280" height="270" alt="Изображение продукта Cat Energy">
+        <picture>
+          <img class="hero__img" src="images/hero@1x.png" srcset="images/hero@2x.png" width="280" height="270" alt="Изображение продукта Cat Energy">
+        </picture>
+
       </div>
       <a class="hero__button button button--primary" href="#">подобрать программу</a>
     </section>
@@ -123,8 +133,12 @@
           <p class="stats__text text text--max">Затраты на питание: 15 000 РУБ.</p>
         </div>
         <div class="slider">
-          <img class="slider__image" src="images/fat-cat.png" width="280" height="256" alt="толстый кот">
-          <img class="slider__image" src="images/skiny-cat.png" width="280" height="256" alt="похудевший кот">
+          <picture>
+            <img class="slider__image" src="images/mobile-before@1x.png" srcset="images/mobile-before@2x.png" width="280" height="256" alt="толстый кот">
+          </picture>
+          <picture>
+            <img class="slider__image" src="images/mobile-after@1x.png" srcset="images/mobile-after@2x.png" width="280" height="256" alt="похудевший кот">
+          </picture>
         </div>
       </div>
     </section>
