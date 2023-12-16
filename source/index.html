@@ -54,7 +54,9 @@
         <h1 class="hero__title title">Функциональное питание для котов</h1>
         <p class="hero__description">Занялся собой? Займись котом!</p>
         <picture>
-          <img class="hero__img" src="images/hero@1x.png" srcset="images/hero@2x.png" width="280" height="270" alt="Изображение продукта Cat Energy">
+          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/hero-desktop@1x.png 1x, images/hero-desktop@2x.png 2x">
+          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/hero-tablet@1x.png, images/hero-tablet@2x.png 2x">
+          <img class="hero__img" src="images/hero@1x.png" srcset="images/hero@2x.png 2x" width="280" height="270" alt="Изображение продукта Cat Energy">
         </picture>
 
       </div>
@@ -134,10 +136,12 @@
         </div>
         <div class="slider">
           <picture>
-            <img class="slider__image" src="images/mobile-before@1x.png" srcset="images/mobile-before@2x.png" width="280" height="256" alt="толстый кот">
+            <source type="image/png" width="560" height="512" media="(min-width: 768px)" srcset="images/tablet-before@1x.png 1x, images/tablet-before@2x.png 2x">
+            <img class="slider__image" src="images/mobile-before@1x.png" srcset="images/mobile-before@2x.png 2x" width="280" height="256" alt="толстый кот">
           </picture>
           <picture>
-            <img class="slider__image" src="images/mobile-after@1x.png" srcset="images/mobile-after@2x.png" width="280" height="256" alt="похудевший кот">
+            <source  type="image/png" width="560" height="512" media="(min-width: 768px)" srcset="images/tablet-after@1x.png 1x, images/tablet-after@1x.png 2x">
+            <img class="slider__image" src="images/mobile-after@1x.png" srcset="images/mobile-after@2x.png 2x" width="280" height="256" alt="похудевший кот">
           </picture>
         </div>
       </div>
@@ -151,7 +155,11 @@
           ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
         </address>
       </div>
-      <img class="contacts__image" src="images/map.png" width="320" height="362" alt="Карта">
+      <picture>
+        <source type="image/png" width="1440" height="400" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
+        <source type="image/png" width="768" height="400" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
+        <img class="contacts__image" src="images/map@1x.png" srcset="images/map@2x.png 2x" width="320" height="362" alt="Карта">
+      </picture>
     </section>
   </main>
   <!-- Подвал -->
