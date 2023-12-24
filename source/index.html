@@ -58,8 +58,10 @@
   <main class="main-container">
     <section class="hero">
       <div class="hero__wrapper container">
-        <h1 class="hero__title title">Функциональное питание для котов</h1>
-        <p class="hero__description">Занялся собой? Займись котом!</p>
+        <div class="hero-wrapper-text">
+          <h1 class="hero__title title title--large">Функциональное питание для котов</h1>
+          <p class="hero__description text">Занялся собой? Займись котом!</p>
+        </div>
         <picture>
           <source width="552" height="499" type="image/png" media="(min-width: 1440px)"
             srcset="images/hero-desktop@1x.png 1x, images/hero-desktop@2x.png 2x">
@@ -169,14 +171,16 @@
           ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
         </address>
       </div>
-      <picture>
-        <source type="image/png" width="1440" height="400" media="(min-width: 1440px)"
-          srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
-        <source type="image/png" width="768" height="400" media="(min-width: 768px)"
-          srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
-        <img class="contacts__image" src="images/map@1x.png" srcset="images/map@2x.png 2x" width="320" height="362"
-          alt="Карта">
-      </picture>
+      <div class="contact__image-wrapper">
+        <picture>
+          <source type="image/png" width="1440" height="400" media="(min-width: 1440px)"
+            srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
+          <source type="image/png" width="768" height="400" media="(min-width: 768px)"
+            srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
+          <img class="contacts__image" src="images/map@1x.png" srcset="images/map@2x.png 2x" width="320" height="362"
+            alt="Карта">
+        </picture>
+      </div>
     </section>
   </main>
   <!-- Подвал -->
