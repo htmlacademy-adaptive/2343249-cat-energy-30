@@ -1,0 +1,17 @@
+.stats__list {
+  margin: 0;
+  padding: 0;
+}
+
+.stats__number {
+  font-family: $secondary-fonts;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.stats__description {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0;
+}

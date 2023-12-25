@@ -1,0 +1,13 @@
+.hero {
+  color: $white;
+}
+
+.hero__title {
+  color: inherit;
+}
+
+.hero__description {
+  color: inherit;
+  text-transform: uppercase;
+  line-height: 14px;
+}

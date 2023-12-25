@@ -1,0 +1,25 @@
+.title {
+  font-family: $secondary-fonts;
+  font-style: normal;
+  font-weight: 400;
+  color: $black;
+  margin: 0;
+  padding: 0;
+}
+
+.title--large {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.title--medium {
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+.title--small {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}

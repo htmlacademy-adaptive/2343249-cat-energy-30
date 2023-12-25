@@ -6,21 +6,28 @@
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico"><!-- 32×32 -->
+  <link rel="icon" href="favicons/favicon-32x32.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple-icon.png"><!-- 180×180 -->
+  <link rel="manifest" href="manifest.webmanifest">
   <script src="scripts/index.js" defer></script>
 </head>
 
 <body class="page__body">
   <!-- шапка -->
   <header class="main-header">
-    <div class="container>">
+    <div class="container">
       <span class="main-header__logo logo">
         <picture>
-          <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg">
-          <source width="60" height="60" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-tablet.svg">
+          <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)"
+            srcset="images/logo-desktop.svg">
+          <source width="60" height="60" type="image/svg+xml" media="(min-width: 768px)"
+            srcset="images/logo-tablet.svg">
           <img src="images/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
         </picture>
         <picture>
-          <source width="101" height="18" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-inscription-desktop.svg">
+          <source width="101" height="18" type="image/svg+xml" media="(min-width: 768px)"
+            srcset="images/logo-inscription-desktop.svg">
           <img class="logo__image" src="images/logo-inscription.svg" width="101" height="18" alt=" ">
         </picture>
       </span>
@@ -51,12 +58,17 @@
   <main class="main-container">
     <section class="hero">
       <div class="hero__wrapper container">
-        <h1 class="hero__title title">Функциональное питание для котов</h1>
-        <p class="hero__description">Занялся собой? Займись котом!</p>
+        <div class="hero-wrapper-text">
+          <h1 class="hero__title title title--large">Функциональное питание для котов</h1>
+          <p class="hero__description text">Занялся собой? Займись котом!</p>
+        </div>
         <picture>
-          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/hero-desktop@1x.png 1x, images/hero-desktop@2x.png 2x">
-          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/hero-tablet@1x.png, images/hero-tablet@2x.png 2x">
-          <img class="hero__img" src="images/hero@1x.png" srcset="images/hero@2x.png 2x" width="280" height="270" alt="Изображение продукта Cat Energy">
+          <source width="552" height="499" type="image/png" media="(min-width: 1440px)"
+            srcset="images/hero-desktop@1x.png 1x, images/hero-desktop@2x.png 2x">
+          <source width="709" height="609" type="image/png" media="(min-width: 768px)"
+            srcset="images/hero-tablet@1x.png, images/hero-tablet@2x.png 2x">
+          <img class="hero__img" src="images/hero@1x.png" srcset="images/hero@2x.png 2x" width="280" height="270"
+            alt="Изображение продукта Cat Energy">
         </picture>
 
       </div>
@@ -69,7 +81,7 @@
           <li class="program__item program-card program-card--weight-loss">
             <div class="program-card__wrapper">
               <h3 class="program-card__title title title--medium">похудение</h3>
-              <p class="program-card__decription decription">Ваш кот весит больше собаки и почти утратил способность
+              <p class="program-card__description text">Ваш кот весит больше собаки и почти утратил способность
                 лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
               <a class="program-card__link link link--arrow" href="#" aria-label="каталог товаров">каталог slim</a>
             </div>
@@ -77,7 +89,7 @@
           <li class="program__item program-card program-card--weight-gain">
             <div class="program-card__wrapper">
               <h3 class="program-card__title title title--medium">Набор массы</h3>
-              <p class="program-card__decription decription">Заработать авторитет среди дворовых котов и даже собак?
+              <p class="program-card__description text">Заработать авторитет среди дворовых котов и даже собак?
                 Серия
                 Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
               <a class="program-card__link link link--arrow" href="#" aria-label="каталог товаров">каталог pro</a>
@@ -136,12 +148,16 @@
         </div>
         <div class="slider">
           <picture>
-            <source type="image/png" width="560" height="512" media="(min-width: 768px)" srcset="images/tablet-before@1x.png 1x, images/tablet-before@2x.png 2x">
-            <img class="slider__image" src="images/mobile-before@1x.png" srcset="images/mobile-before@2x.png 2x" width="280" height="256" alt="толстый кот">
+            <source type="image/png" width="560" height="512" media="(min-width: 768px)"
+              srcset="images/tablet-before@1x.png 1x, images/tablet-before@2x.png 2x">
+            <img class="slider__image" src="images/mobile-before@1x.png" srcset="images/mobile-before@2x.png 2x"
+              width="280" height="256" alt="толстый кот">
           </picture>
           <picture>
-            <source  type="image/png" width="560" height="512" media="(min-width: 768px)" srcset="images/tablet-after@1x.png 1x, images/tablet-after@1x.png 2x">
-            <img class="slider__image" src="images/mobile-after@1x.png" srcset="images/mobile-after@2x.png 2x" width="280" height="256" alt="похудевший кот">
+            <source type="image/png" width="560" height="512" media="(min-width: 768px)"
+              srcset="images/tablet-after@1x.png 1x, images/tablet-after@1x.png 2x">
+            <img class="slider__image" src="images/mobile-after@1x.png" srcset="images/mobile-after@2x.png 2x"
+              width="280" height="256" alt="похудевший кот">
           </picture>
         </div>
       </div>
@@ -155,11 +171,16 @@
           ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
         </address>
       </div>
-      <picture>
-        <source type="image/png" width="1440" height="400" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
-        <source type="image/png" width="768" height="400" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
-        <img class="contacts__image" src="images/map@1x.png" srcset="images/map@2x.png 2x" width="320" height="362" alt="Карта">
-      </picture>
+      <div class="contacts__image-wrapper">
+        <picture>
+          <source type="image/png" width="1440" height="400" media="(min-width: 1440px)"
+            srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
+          <source type="image/png" width="768" height="400" media="(min-width: 768px)"
+            srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
+          <img class="contacts__image" src="images/map@1x.png" srcset="images/map@2x.png 2x" width="320" height="362"
+            alt="Карта">
+        </picture>
+      </div>
     </section>
   </main>
   <!-- Подвал -->
@@ -221,7 +242,7 @@
                 fill="#666666" />
             </g>
             <defs>
-                <rect width="27" height="34" fill="white" transform="translate(0 0.5)" />
+              <rect width="27" height="34" fill="white" transform="translate(0 0.5)" />
             </defs>
           </svg>
         </a>

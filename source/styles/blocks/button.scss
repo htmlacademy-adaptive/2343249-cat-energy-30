@@ -1,0 +1,11 @@
+.button {
+  @include button($white, $brand-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button--secondary {
+  @include button($dark-grey, $bg-color);
+}
