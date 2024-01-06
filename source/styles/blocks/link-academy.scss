@@ -1,5 +1,21 @@
+.link-academy__link:hover {
+  background-color: $brand-color;
+}
+
+.link-academy__link:active {
+  background-color: $brand-color;
+  opacity: 0.25;
+}
+
 .link-academy__link {
   text-decoration: none;
+  display: inline-block;
+  width: 27px;
+  height: 34px;
+  mask-image: url("../../images/icons/stack.svg#logo-academy");
+  mask-size: 27px 34px;
+  mask-position: center;
+  background-color: #666666;
 }
 
 .link-academy__description {
@@ -7,4 +23,14 @@
   line-height: 20px;
   margin: 0;
   color: $dark-grey;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link-academy__description:active {
+  opacity: 0.3;
+}
+
+.link-academy__description p {
+  margin: 0;
 }

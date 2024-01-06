@@ -1,8 +1,29 @@
 .program-card {
   background-color: $bg-color;
+  position: relative;
 }
 
 .product-card__description {
   font-size: 12px;
   line-height: 16px;
+}
+
+.program-card--weight-loss::before {
+  content: " ";
+  width: 36px;
+  height: 50px;
+  position: absolute;
+  background-image: url("../../images/icons/stack.svg#cat-slim");
+  background-size: 36px 50px;
+  background-position: center;
+}
+
+.program-card--weight-gain::before {
+  content: " ";
+  width: 67px;
+  height: 28px;
+  position: absolute;
+  background-image: url("../../images/icons/stack.svg#cat-pro");
+  background-size: 67px 28px;
+  background-position: center;
 }

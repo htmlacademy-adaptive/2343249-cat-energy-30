@@ -2,3 +2,23 @@
   margin: 0;
   padding: 0;
 }
+
+.advantages__item {
+  display: flex;
+}
+
+.advantages__item--icon-leaf::before {
+  @include icon(url("../../images/icons/stack.svg#leaf-icon"));
+}
+
+.advantages__item--icon-powder::before {
+  @include icon(url("../../images/icons/stack.svg#powder-icon"));
+}
+
+.advantages__item--icon-eat::before {
+  @include icon(url("../../images/icons/stack.svg#eat-icon"));
+}
+
+.advantages__item--icon-clock::before {
+  @include icon(url("../../images/icons/stack.svg#clock-icon"));
+}

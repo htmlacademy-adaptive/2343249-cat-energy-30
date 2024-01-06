@@ -1,3 +1,24 @@
 .banner {
   margin: 0;
+  background-color: $brand-color;
+  color: $white;
+}
+
+.banner::before {
+  content: " ";
+  width: 78px;
+  height: 80px;
+  display: block;
+  background-image: url("../../images/icons/stack.svg#icon-gift");
+  background-position: center;
+  background-size: 78px 80px;
+  background-repeat: no-repeat;
+}
+
+.banner__description {
+  color: inherit;
+}
+
+.banner-wrapper {
+  margin-top: 35px;
 }
