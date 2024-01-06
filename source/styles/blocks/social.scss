@@ -3,3 +3,40 @@
   margin: 0;
   padding: 0;
 }
+
+.social__link:hover {
+  background-color: $brand-color;
+}
+
+.social__link:active {
+  background-color: $brand-color;
+  opacity: 0.3;
+}
+
+.social__link {
+  display: inline-block;
+  width: 28px;
+  height: 22px;
+}
+
+.social__link--youtube {
+  mask-image: url("../../images/icons/stack.svg#youtube");
+  mask-size: 28px 22px;
+  mask-position: center;
+  background-color: #666666;
+}
+
+.social__link--vk {
+  mask-image: url("../../images/icons/stack.svg#vkontakte");
+  mask-size: 28px 22px;
+  mask-position: center;
+  background-color: #666666;
+}
+
+
+.social__link--telegram {
+  mask-image: url("../../images/icons/stack.svg#telegram");
+  mask-size: 28px 22px;
+  mask-position: center;
+  background-color: #666666;
+}

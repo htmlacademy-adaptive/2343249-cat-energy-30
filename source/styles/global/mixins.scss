@@ -16,4 +16,17 @@
   text-transform: uppercase;
   color: $color-btn;
   background-color: $background-color-btn;
+  border: none;
+}
+
+@mixin icon ($icon-image) {
+  content: " ";
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  background-color: $brand-color;
+  background-image: $icon-image;
+  background-position: center;
+  background-size: 30px 32px;
+  background-repeat: no-repeat;
 }
